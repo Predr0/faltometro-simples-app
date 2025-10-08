@@ -1,0 +1,126 @@
+/* 
+I'm Just a Girl
+*/
+
+
+:root {
+    --rosa-principal: #fce4ec; /* Rosa clarinho, quase um bebê */
+    --rosa-secundario: #f8bbd0; /* Rosa um pouco mais vibrante para detalhes */
+    --texto-escuro: #424242; /* Cinza escuro para textos */
+    --texto-claro: #ffffff; /* Branco para textos em fundos escuros */
+    --acento-dourado: #ffeb3b; /* Amarelo/Dourado suave para destaque */
+    --borda-suave: #e0e0e0; /* Cinza claro para bordas */
+}
+
+body {
+    background-color: var(--rosa-principal); /* Nosso rosa principal para o fundo */
+    font-family: 'Open Sans', Arial, sans-serif; /* Uma fonte leve e moderna */
+    color: var(--texto-escuro); /* Cor padrão do texto */
+    margin: 0;
+    padding: 20px; /* Um pouco de espaço nas bordas */
+    line-height: 1.6; /* Espaçamento entre as linhas para facilitar a leitura */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif; 
+    color: #ad1457; 
+    margin-bottom: 0.5em;
+}
+
+
+p {
+    margin-bottom: 1em;
+}
+
+
+a {
+    color: #e91e63; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #d81b60; 
+    text-decoration: underline;
+}
+
+
+button, .button { 
+    background-color: var(--rosa-secundario);
+    color: var(--texto-claro);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+button:hover, .button:hover {
+    background-color: #f06292; 
+}
+
+
+.container, .card {
+    background-color: var(--texto-claro); 
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--borda-suave);
+    border-radius: 5px; 
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #c2185b;
+    color: var(--texto-claro);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #d81b60;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--borda-suave);
+    color: #757575; 
+    font-size: 0.9em;
+}
+.card div[style*="background:#eee"] {
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid var(--borda-suave);
+}

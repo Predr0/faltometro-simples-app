@@ -1,0 +1,68 @@
+#  Attendance tracker (Faltômetro)
+
+A attendance tracker built with **Electron**, **PHP**, and **HTML**.  
+Made with love for personal use for friends/family, to help track absences in a fun way.
+
+Um rastreador de presença simples, feito com **Electron**, **PHP** e **HTML**.  
+Feito com carinho para uso pessoal de pessoas próximas, para ajudar a controlar as faltas de um jeito divertido.
+
+---
+
+## 🚀 Features | Funcionalidades
+
+🇬🇧  
+- Local PHP backend for simple data handling  
+- Electron-based desktop interface  
+- Lightweight and offline-friendly  
+- Custom UI 
+
+🇧🇷  
+- Backend PHP local para lidar com dados de forma simples  
+- Interface desktop feita com Electron  
+- Leve e funcional mesmo sem internet  
+- Interface personalizada  
+
+---
+
+## 🧠 Tech Stack | Tecnologias
+
+- Electron.js  
+- Node.js  
+- PHP (local server)  
+- HTML, CSS, JS  
+
+---
+
+## 📦 How to Run | Como Executar
+
+🇬🇧  
+Install dependencies and start the app:  
+```bash
+npm install
+npm start
+```
+Or build for distribution:
+```bash
+npm run dist
+```
+
+🇧🇷
+Instale as dependências e inicie o app:
+```bash
+npm install
+npm start
+```
+-Ou gere o Instalador
+```bash
+npm run dist
+```
+
+💡 Why Pink? | Por que Rosa?
+
+🇬🇧
+Because it’s a personal gift 🎁 — and pink makes everything cuter 💗 (my gf wanted me to say this)
+I wanted it to feel cozy and friendly rather than “corporate”. It was a good training for stylization in general
+
+🇧🇷
+Porque é um presente pessoal 🎁 — e rosa deixa tudo mais bonitinho 💗 (minha namorada mandou eu falar isso)
+Quis que o app tivesse um toque acolhedor e divertido, em vez de algo “corporativo”. Foi um bom treino para estilização em geral

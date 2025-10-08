@@ -1,0 +1,43 @@
+{
+  "name": "faltometro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "get-port": "^7.0.0"
+  },
+  "build": {
+    "appId": "com.seunome.faltometro",
+    "productName": "Faltômetro",
+    "files": [
+      "**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "php/",
+        "to": "php"
+      },
+      {
+        "from": "www/",
+        "to": "www"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false
+    }
+  }
+}
