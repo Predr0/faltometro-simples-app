@@ -48,14 +48,14 @@ npm run dist
 
 PT/BR
 Instale as dependências e inicie o app:
-```bash
+-------
 npm install
 npm start
-```
+-------
 -Ou gere o Instalador
-```bash
+-------
 npm run dist
-```
+-------
 
 💡 Why Pink? | Por que Rosa?
 EN
