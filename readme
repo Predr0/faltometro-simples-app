@@ -1,4 +1,4 @@
-<font size="5">Attendance tracker (Faltômetro)</font>
+<h1 align="center">Attendance tracker (Faltômetro)</h1>
 
 A attendance tracker built with **Electron**, **PHP**, and **HTML**.  
 Made with love for personal use for friends/family, to help track absences in a fun way.
